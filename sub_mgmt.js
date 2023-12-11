@@ -28,7 +28,7 @@ var blng = (process.env.USAGE_REPORTS_PERIOD || yyyy + "-" + mm);
 console.log("Billing period searched ==> " + blng);
 
 const params = {
-    accountId: "e31522623fe9f482360d50bd62771b86",
+    accountId: (process.env.USAGE_REPORTS_ACCOUNTID || "error"),
     billingmonth: blng,
 };
 
