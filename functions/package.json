@@ -1,0 +1,9 @@
+{
+    "name": "function",
+    "version": "1.0.0",
+    "main": "sub-mgmt-func.js",
+    "dependencies": {
+        "@ibm-cloud/platform-services": "^0.48.0",
+        "jsonata": "^2.0.3"
+    }
+}

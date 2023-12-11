@@ -20,7 +20,7 @@ const serviceClient = UsageReportsV4.newInstance({});
 const jsonata = require('jsonata');
 const jsonataEcpression = jsonata('$sum(subscription.subscriptions.terms.credits.total) -$sum(subscription.subscriptions.terms.credits.used)');
 
-// Calculate billing period 
+// Define billing period 
 var today = new Date();
 var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yyyy = today.getFullYear();
