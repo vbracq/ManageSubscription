@@ -1,0 +1,24 @@
+{
+  "name": "managesubscription",
+  "version": "1.0.0",
+  "description": "Manage IBM Cloud subscription and alerting",
+  "main": "sub_mgmt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.ibm.com/vbracq/ibm-cloud-subscription-management.git"
+  },
+  "keywords": [
+    "IBM",
+    "Cloud",
+    "subscription",
+    "management"
+  ],
+  "author": "Vincent Bracq",
+  "license": "ISC",
+  "dependencies": {
+    "@ibm-cloud/platform-services": "^0.48.0"
+  }
+}
