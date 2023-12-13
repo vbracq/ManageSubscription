@@ -16,7 +16,7 @@
 
 function main(params) {
 
-    console.log("Call parameters ==> " + (params || "no parms");
+    console.log("Call parameters ==> " + (params || "no parms"));
     var msg = 'No data found or error encoutered !'
 
     // Init SDK
